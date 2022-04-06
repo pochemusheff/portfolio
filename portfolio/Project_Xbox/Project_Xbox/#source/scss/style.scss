@@ -1,0 +1,144 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap');
+
+
+
+body {
+	font-family: Arimo;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+.container {
+  max-width: 1594px;
+  margin: 0 auto;
+}
+.header__menu ul li{
+	display: inline-block;
+}
+.header {
+	background: #373A3C;
+	padding-top: 11px;
+	padding-bottom: 11px;
+		font-family: Arimo;
+}
+.container {}
+.header__row {
+	display: flex;
+	justify-content: space-between;
+}
+.header__body {
+	display: flex;
+	align-items: baseline;
+}
+.header__logo {}
+.header__menu ul li {
+	font-size: 16px;
+	line-height: 16px;
+	color: rgba(255, 255, 255, 0.5);
+	margin-right: 42px;
+	&:hover {
+		color: #fff;
+		transition: 0.6s;
+	}
+}
+
+.header__search input {
+	border: 1px solid #CCCCCC;
+	color: black; 
+	background: white;
+	border-radius: 4px;
+	width: 209.8px;
+	height: 38px;
+	font-size: 16px;
+	margin-right: 30px;
+	padding-left: 16px;
+}
+
+.header__profile {
+	display: flex;
+}
+.header__profile_logo {
+	margin-right: 5px;
+}
+.header__profile_text a{
+	font-size: 16px;
+	line-height: 16px;
+	color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+
+
+.main {
+ background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+ text-align: center;
+}
+.main__logo {
+	padding-top: 64px;
+	margin-bottom: 16px;
+}
+.main__title {
+	font-size: 48px;
+	line-height: 56px;
+	color: #fff;
+}
+.main__subtitle {
+	font-size: 36px;
+line-height: 42px;
+color: #fff;
+margin-bottom: 43px;
+}
+.main-column__img img {
+	height: 180px;
+}
+.main__columns {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.main-column {
+	background-color: #fff;
+	border: 1px solid #8DD83D;
+	border-radius: 4px;
+	margin-right: 58px;
+	max-width: 320px;
+	margin-bottom: 162px;
+}
+.main-column__title {
+	font-size: 18px;
+line-height: 21px;
+text-align: left;
+color: #435766;
+margin-top: 16px;
+margin-bottom: 13px;
+}
+.main-column__text {
+	font-size: 24px;
+line-height: 28px;
+text-align: left;
+margin-bottom: 38px;
+color: #435766;
+
+}
+.main-column__body {
+	margin-left: 22px;
+}
+.main-column__button button {
+	width: 278px;
+	height: 60px;
+	background: #8DD83D;
+border-radius: 4px;
+color: white;
+font-size: 16px;
+margin-bottom: 27px;
+}
+.main-column__button button:hover {
+	    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 0.6s;
+    background-color: #8DD82A;
+}
